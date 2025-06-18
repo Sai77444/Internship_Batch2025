@@ -1,9 +1,9 @@
 class BankAccount {
-    // Private fields
+ 
     private String accountNumber;
     private double balance;
 
-    // Constructor
+   
     public BankAccount(String accountNumber, double initialBalance) {
         this.accountNumber = accountNumber;
         if (initialBalance >= 0) {
@@ -14,7 +14,7 @@ class BankAccount {
         }
     }
 
-    // Deposit method with validation
+   
     public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
@@ -24,7 +24,7 @@ class BankAccount {
         }
     }
 
-    // Withdraw method with validation
+  
     public void withdraw(double amount) {
         if (amount <= 0) {
             System.out.println("Withdrawal amount must be positive.");
@@ -36,28 +36,28 @@ class BankAccount {
         }
     }
 
-    // Method to check balance
+  
     public double getBalance() {
         return balance;
     }
 
-    // Method to display account info
+   
     public void displayInfo() {
         System.out.println("Account Number: " + accountNumber);
         System.out.println("Current Balance: ₹" + balance);
     }
 }
 
-// Main class to test
+
 public class Main6 {
     public static void main(String[] args) {
         BankAccount myAccount = new BankAccount("ACC12345", 1000);
 
         myAccount.displayInfo();
-        myAccount.deposit(500);     // Depositing money
-        myAccount.withdraw(200);    // Withdrawing money
-        myAccount.withdraw(2000);   // Trying to withdraw more than balance
-        myAccount.deposit(-100);    // Invalid deposit
+        myAccount.deposit(500);     
+        myAccount.withdraw(200);   
+        myAccount.withdraw(2000);  
+        myAccount.deposit(-100);    
     }
 }
 
