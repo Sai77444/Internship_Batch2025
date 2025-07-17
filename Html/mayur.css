@@ -1,0 +1,76 @@
+
+.profile{
+  width:400px;
+  height: 400px;
+  border: 3px solid rgb(216, 213, 213);
+  border-radius:400px ;
+  margin-left: 500px;
+  margin-top: 130px;
+  
+}
+
+
+.profile:hover{
+ transform: translate3d(15px,5px,5px); 
+ transition: transform 4s ; 
+ border: none;
+}
+
+.menubar{
+   padding: 15px;
+   display:flex; 
+   border-radius: 22px;
+   border-bottom:2px solid rgb(213, 212, 212);
+  
+}
+
+.menu{
+    padding-left: 980px;
+    font-size: 17px;
+    
+}
+
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin: 14px 16px;
+  
+}
+
+.head{
+    font-size: 20px;
+    padding-left: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head:hover{
+    text-decoration-line: underline;
+    color: rgb(159, 100, 196);
+}
+.front{
+    display: flex;
+}
+.text{
+    font-size: 30px;
+    margin-top: 250px;
+    margin-left: 250px;
+    font-weight: 80px;
+    line-height: 1.8;
+}
+
+.btn{
+    background-color: blue;
+    
+    padding: 10px 35px;
+    margin: 30px 0px;
+    border-radius: 10px;
+    border: none;
+}
+.btn a{
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: rgb(216, 213, 213) ;
+}
