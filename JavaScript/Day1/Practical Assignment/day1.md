@@ -5,6 +5,8 @@ It allows you to make web pages interactive (for example: buttons that do someth
 
 It works on the browser as well as on the server (using Node.js).
 
+
+
 History of JavaScript
 1995 – Creation
 

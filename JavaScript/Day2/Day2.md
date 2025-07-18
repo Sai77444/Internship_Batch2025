@@ -126,9 +126,8 @@ Example:
     4. switch statement
     Used when you have many choices for one variable.
 
-javascript
-Copy
-Edit
+
+
 let day = 3;
 
 switch (day) {
