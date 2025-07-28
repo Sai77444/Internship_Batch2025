@@ -27,11 +27,12 @@
 // console.log(user_names);
 
 //using Filter
-const numbers = [1,3,2,6,4,8];
+// const numbers = [1,3,2,6,4,8];
 
-const isEven= function(number){
-    return number % 2 === 0;
-}
+// const isEven= function(number){
+//     return number % 2 === 0;
+// }
 
-const Even_numbers = numbers.filter(isEven);
-console.log(Even_numbers);
+// const Even_numbers = numbers.filter(isEven);
+// console.log(Even_numbers);
+
